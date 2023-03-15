@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<title>Team Bento Website</title>
+
+	<title>🍱 Team Bento Website</title>
+	<link rel="icon" type="image/x-icon" href="assets/bento-box.webp">
 	<style>
 
 		@font-face {
@@ -9,12 +11,28 @@
 			src: url(fonts/FOT-NewRodin\ Pro\ EB.otf);
 		}
 
-		body {
-			font-family: Arial, sans-serif;
-			background-color: #f1f1f1;
+		@font-face {
+			font-family: Brandon Grotesque;
+			src: url(fonts/brandon-grotesque-bold-italic-58a8a48221563.otf);
 		}
+
+		@font-face {
+			font-family: cmu;
+			src: url(fonts/cmunbx.ttf);
+		}
+
+		@font-face {
+			font-family: Youtube Sans;
+			src: url(fonts/youtube-sans-medium.ttf);
+		}
+
+		body {
+			font-family: Youtube Sans;
+			background-color: #555;
+		}
+
 		header {
-			background-color: #008CBA;
+			background-color: red;
 			color: white;
 			text-align: center;
 			padding: 20px 0;
@@ -28,15 +46,22 @@
 		section {
 			padding: 20px;
 			margin: 20px;
-			background-color: white;
-			border: 1px solid #ddd;
+			background-color: #3d3d3d;
+			border: 1px solid red;
 			border-radius: 10px;
 		}
+
+		.hoverable:hover {
+			background-color: #292929;
+		}
+
 		h2 {
+			color: white;
 			font-size: 36px;
 			margin-top: 0;
 		}
 		p {
+			color: white;
 			font-size: 24px;
 		}
 		ul {
@@ -44,6 +69,7 @@
 			list-style-type: none;
 			padding: 0;
 		}
+
 		li:before {
 			content: "\2022";
 			color: #008CBA;
@@ -65,32 +91,31 @@
 			text-decoration: none;
 			color: black;
 		}
+
 	</style>
 </head>
 <body>
 	<header>
-		<h1>Team Bento Box 🍱</h1>
+		<h1>🍱 Team Bento 🍱</h1>
 	</header>
 	<section>
 		<h2>About Us</h2>
-		<p>We are a team of enthusiastic programmers who love to build and 
-program robots. Our team is dedicated to learning and exploring the 
-latest robotics technologies.</p>
+		<p>We are a team of students, interested in robotics. Our Robot called 'Bento Box' is a robot which can search for people. With our different abilities we benefit from each other, just like a bento box benefits from the different food within it.</p>
 	</section>
 <a href="assets/robotik_application.pdf" target="_blank" download="Team Bento application">
-	<section>
+	<section class="hoverable">
 		<h2>Our Application</h2>
-		<p>click on this field to download our application</p>
+		<p>CLICK ON THIS FIELD TO DOWNLOAD OUR APPLICATION</p>
 	</section>
 </a>
-	<section>
+	<section class="hoverable">
 		<h2>Our Robot: 'Bento Box'</h2>
 	</section>
-	<section>
+	<section class="hoverable">
 		<h2>Our Team</h2>
 	</section>
 	<footer>
-		<p>© 2023 Programming Robots Team. All rights reserved.</p>
+		<p>© 2023 The Bento Box Team</p>
 	</footer>
 
 
