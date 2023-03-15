@@ -1,94 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>baulus website</title>
-    <link rel="icon" href="assets/pfp.png">
-    <style>
+	<title>Team Bento Website</title>
+	<style>
 
-        @font-face {
-            font-family: New Rodin;
-            src: url(fonts/FOT-NewRodin\ Pro\ EB.otf);
-        }
+		@font-face {
+			font-family: New Rodin;
+			src: url();
+		}
 
-        body {
-            width: 100vw;
-            height: 100vh;
-            background-color: rgb(75, 75, 75);
-            overflow-x: hidden;
-        }
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f1f1f1;
+		}
+		header {
+			background-color: #008CBA;
+			color: white;
+			text-align: center;
+			padding: 20px 0;
+			padding: 20px;
+			margin: 20px;
+			border-radius: 10px;
+		}
+		
+		h1 {
+			font-size: 48px;
+		}
 
-        .header{
-            color: white;
-        }
+		section {
+			padding: 20px;
+			margin: 20px;
+			background-color: white;
+			border: 1px solid #ddd;
+			border-radius: 10px;
+		}
+		h2 {
+			font-size: 36px;
+			margin-top: 0;
+		}
+		p {
+			font-size: 24px;
+		}
+		ul {
+			font-size: 24px;
+			list-style-type: none;
+			padding: 0;
+		}
+		li:before {
+			content: "\2022";
+			color: #008CBA;
+			display: inline-block;
+			width: 1em;
+			margin-left: -1em;
+		}
 
-        .header:hover{
-            text-decoration: underline;
-        }
-
-        .newrodin{
-            font-family: New Rodin;
-        }
-        
-        .button{
-            width: 20vw;
-            height: 10vh;
-            border-width: 0px;
-            border-radius: 10px;
-            background-color: red;
-            color: aliceblue;
-            font-size: larger;
-
-
-        }
-
-        .button:hover {
-            background-color: rgb(141, 0, 0);
-        }
-
-        .smallbutton {
-            width: 15vw;
-            height: 8vh;
-            border-width: 0px;
-            border-radius: 10px;
-            background-color: red;
-            color: aliceblue;
-            font-size: larger;
-        }
-
-        .smallbutton:hover{
-            background-color: rgb(141, 0, 0);
-        }
-
-        .centeredx {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-        }
-
-        .centeredy {
-            align-items: center;
-        }
-
-        .gapped {
-            gap: 20px;
-        }
-
-    </style>
+		footer {
+			background-color: #555;
+			color: white;
+			text-align: center;
+			padding: 20px;
+			margin: 20px;
+			border-radius: 10px;
+		}
+		
+		a {
+			text-decoration: none;
+			color: black;
+		}
+	</style>
 </head>
 <body>
-    <div class="centeredx" >
-        <a href="index.html"><h1 class="newrodin header">Welcome to our website</h1></a>
-    </div>
-    <div class="centeredx centeredy gapped">
-        <a href="robot/index.html"><button class="smallbutton newrodin">Our Robot</button></a>
-        <a href="assets/robotik_application.pdf" target="_blank" download="application.pdf"><button class="button newrodin">Download our application</button></a>
-        <a href="team/index.html"><button class="smallbutton newrodin">Our Team</button></a>
-    </div>
-
-
+	<header>
+		<h1>Team Bento Box 🍱</h1>
+	</header>
+	<section>
+		<h2>About Us</h2>
+		<p>We are a team of enthusiastic programmers who love to build and program robots. Our team is dedicated to learning and exploring the latest robotics technologies.</p>
+	</section>
+<a href="assets/robotik_application.pdf" target="_blank" download="application.pdf">
+	<section>
+		<h2>Our Application</h2>
+		<p>click on this field to download our application</p>
+	</section>
+</a>
+	<section>
+		<h2>Our Robot: 'Bento Box'</h2>
+	</section>
+	<section>
+		<h2>Our Team</h2>
+	</section>
+	<footer>
+		<p>&copy; 2023 Programming Robots Team. All rights reserved.</p>
+	</footer>
 </body>
 </html>
+
