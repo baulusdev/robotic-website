@@ -4,6 +4,7 @@
 
 	<title> Team Bento Website</title>
 	<link rel="icon" type="image/x-icon" href="assets/bento-box.webp">
+	<script src="index.js"></script>
 	<style>
 
 		@font-face {
@@ -54,7 +55,9 @@
 		.hoverable:hover {
 			background-color: #292929;
 		}
-
+		.clickable:hover {
+			cursor: pointer;
+		}
 		h2 {
 			color: white;
 			font-size: 36px;
@@ -79,7 +82,7 @@
 		}
 
 		footer {
-			background-color: #555;
+			background-color: #292929;
 			color: white;
 			text-align: center;
 			padding: 20px;
@@ -103,19 +106,28 @@
 		<p>We are a team of students, interested in robotics. Our Robot called 'Bento Box' is a robot which can search for people. With our different abilities we benefit from each other, just like a bento box benefits from the different food within it.</p>
 	</section>
 <a href="assets/robotik_application.pdf" target="_blank" download="Team Bento application">
+	
 	<section class="hoverable">
-		<h2>Our Application</h2>
-		<p>CLICK ON THIS FIELD TO DOWNLOAD OUR APPLICATION</p>
+		<h2>Download our application</h2>
+		<p>Click here to download out application for the RMRC league at the RoboCup 2023 in Bordeaux
+		</p>
+		
 	</section>
 </a>
-	<section class="hoverable">
+	<section class="hoverable clickable" onclick="addrobot()">
 		<h2>Our Robot: 'Bento Box'</h2>
+		<div id="robot">
+
+		</div>
 	</section>
-	<section class="hoverable">
+	<section class="hoverable clickable" onclick="addteam()">
 		<h2>Our Team</h2>
+		<div id="team">
+
+		</div>
 	</section>
 	<footer>
-		<p>© 2023 The Bento Box Team</p>
+		<p>© 2023 The Bento Team</p>
 	</footer>
 
 
