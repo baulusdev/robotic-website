@@ -1,6 +1,3 @@
-function addpdf() {
-    document.getElementById('pdf').innerHTML = '<iframe src="assets/robotik_application.pdf" frameborder="0" width="800" height="600"></iframe>';
-}
 
 function addrobot() {
     if(document.getElementById('robot').innerHTML == '') {
