@@ -23,12 +23,12 @@
 		}
 
 		@font-face {
-			font-family: Youtube Sans;
+			font-family: ySans;
 			src: url(fonts/youtube-sans-medium.ttf);
 		}
 
 		body {
-			font-family: Youtube Sans;
+			font-family: ySans;
 			background-color: #555;
 		}
 
@@ -82,7 +82,7 @@
 		}
 
 		footer {
-			background-color: #292929;
+			background-color: #555;
 			color: white;
 			text-align: center;
 			padding: 20px;
@@ -93,6 +93,26 @@
 		a {
 			text-decoration: none;
 			color: black;
+		}
+
+		.foto {
+			border-radius: 10px;
+		}
+
+		.columns {
+			align-items: center;
+			display: flex;
+			gap: 20px;
+		}
+
+		.tinted {
+			color: #555;
+			text-align: center;
+		}
+
+		.video {
+			display: flex;
+			justify-content: center;
 		}
 
 	</style>
@@ -114,16 +134,42 @@
 		
 	</section>
 </a>
-	<section class="hoverable clickable" onclick="addrobot()">
-		<h2>Our Robot: 'Bento Box'</h2>
-		<div id="robot">
+	<section class="hoverable clickable" onclick="addrobotzyklop()">
+		<h2>Our old Robot 'Zyklop'</h2>
+		<div id="robotzyklop1">
+			<p>The "Zyklop" Robot is our old robot</p><p class="tinted">(click to read more)</p>
+		</div>
+		<div class="columns" id="robotzyklop">
+			
+		</div>
+	</section>
+	<section class="hoverable clickable" onclick="addrobotbento()">
+		<h2>Our future Robot: 'Bento Box'</h2>
+		<div id="robotbento1">
+			<p>The "Bento Box" Robot will be our future robot</p><p class="tinted">(click to read more)</p>
+		</div>
+		<div id="robotbento">
 
 		</div>
 	</section>
+	
 	<section class="hoverable clickable" onclick="addteam()">
 		<h2>Our Team</h2>
-		<div id="team">
+		<div id="team1">
+			<p>Our team consists of a total of six members. Together the team is well-rounded and is able to efficiently work together as one. By participating in the international competition, we also want to strengthen our teamwork and receive more experience.</p><p class="tinted">(click to read more)</p>
+		</div>
+		<div class="columns" id="team">
+			
+		</div>
+	</section>
 
+	<section class="hoverable clickable" onclick="addgalery()">
+		<h2>Galery</h2>
+		<div id="galery1">
+			<p>You can watch some of our content here!</p><p class="tinted">(click to read more)</p>
+		</div>
+		<div class="video" id="galery">
+			
 		</div>
 	</section>
 	<footer>
