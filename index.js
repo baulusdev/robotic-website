@@ -48,7 +48,7 @@ function addteam() {
 
 function addgalery() {
     if(full3 == false) {
-        document.getElementById('galery').innerHTML = '<video src="https://files.pipeman.org/robot/Roboter-Film-2.mp4" controls></video>';
+        document.getElementById('galery').innerHTML = '<video src="https://files.pipeman.org/robot/Roboter-Film-2.mp4" controls width="550" height="300"></video>';
         document.getElementById('galery1').innerHTML = '';
         full3 = true;
         }
