@@ -5,7 +5,7 @@ let full3 = false;
 
 function addrobotzyklop() {
     if(full1 == false) {
-        document.getElementById('robotzyklop').innerHTML = '<img class="foto" src="assets/images/_DSC8109.jpg" alt="" widht="1280" height="850"><p>h</p>';
+        document.getElementById('robotzyklop').innerHTML = '<img class="foto" src="assets/images/DSC8109.jpg" alt="" widht="1280" height="850"><p></p>';
         document.getElementById('robotzyklop1').innerHTML = '';
         full1 = true;
     }
@@ -20,7 +20,7 @@ function addrobotzyklop() {
 function addrobotbento() {
 
     if(full2 == false) {
-    document.getElementById('robotbento').innerHTML = '<p>yeah guys</p>';
+    document.getElementById('robotbento').innerHTML = '<p>The Bento Robot is our newest addition to our Robot Family. It will be used in Bordeaux</p>';
     document.getElementById('robotbento1').innerHTML = '';
     full2 = true;
     }
