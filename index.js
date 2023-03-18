@@ -20,7 +20,7 @@ function addrobotzyklop() {
 function addrobotbento() {
 
     if(full2 == false) {
-    document.getElementById('robotbento').innerHTML = '<p>The Bento Robot is our newest addition to our Robot Family. It will be used in Bordeaux</p>';
+    document.getElementById('robotbento').innerHTML = '<p>The Bento Robot is our newest addition to our Robot Family. It will be used in Bordeaux. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p><img class="foto" src="assets/images/bentobot.png" alt="bento_bot_chassis" width="1000" height="720">';
     document.getElementById('robotbento1').innerHTML = '';
     full2 = true;
     }
