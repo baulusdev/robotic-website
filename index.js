@@ -5,7 +5,7 @@ let full3 = false;
 
 function addrobotzyklop() {
     if(full1 == false) {
-        document.getElementById('robotzyklop').innerHTML = '<img class="foto" src="assets/images/DSC8109.jpg" alt="" widht="1280" height="850"><p></p>';
+        document.getElementById('robotzyklop').innerHTML = '<img class="foto" src="assets/images/DSC8109.jpg" alt="" widht="700" height="450"><p class="description">This is our old Robot: Zyklop. This was our first real experience with ROS and industrial standard robots. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>';
         document.getElementById('robotzyklop1').innerHTML = '';
         full1 = true;
     }
@@ -20,7 +20,7 @@ function addrobotzyklop() {
 function addrobotbento() {
 
     if(full2 == false) {
-    document.getElementById('robotbento').innerHTML = '<p>The Bento Robot is our newest addition to our Robot Family. It will be used in Bordeaux. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p><img class="foto" src="assets/images/bentobot.png" alt="bento_bot_chassis" width="1000" height="720">';
+    document.getElementById('robotbento').innerHTML = '<p class="description">The Bento Robot is our newest addition to our Robot Family. It will be used in Bordeaux. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p><img class="foto" src="assets/images/bentobot.png" alt="bento_bot_chassis" width="700" height="450">';
     document.getElementById('robotbento1').innerHTML = '';
     full2 = true;
     }
@@ -35,7 +35,7 @@ function addrobotbento() {
 function addteam() {
    
     if(full == false) {
-    document.getElementById('team').innerHTML = '<img class="foto" src="assets/images/DSC_0148.JPG" alt="" width="1280" height="850"><p>Our team consists of a total of six members. Together the team is well-rounded and is able to efficiently work together as one.By participating in the international competition, we also want to strengthen our teamwork and receive more experience.<p>';
+    document.getElementById('team').innerHTML = '<img class="foto" src="assets/images/DSC_0148.JPG" alt="" width="700" height="450"><p class="description">Our team consists of a total of six members. Together the team is well-rounded and is able to efficiently work together as one.By participating in the international competition, we also want to strengthen our teamwork and receive more experience. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<p>';
     document.getElementById('team1').innerHTML = '';
     full = true;
     }
